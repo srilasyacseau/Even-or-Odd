@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main()
+{
+    int a;
+    printf("\tEnter the value of 'a': ");
+    scanf("%d",&a);
+    
+    if(a%2 == 0)
+    {
+        printf("\t%d is even.",a);
+    }
+    else
+    {
+        printf("\t%d is odd.",a);
+    }
+    
+    return 0;
+}
